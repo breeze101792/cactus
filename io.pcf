@@ -1,0 +1,61 @@
+# For the iCESugar Board (iCE40UP5K-QFN48)
+
+set_io LED_G 41
+set_io LED_R 40
+set_io LED_B 39
+
+set_io SW[0] 18
+set_io SW[1] 19
+set_io SW[2] 20
+set_io SW[3] 21
+
+set_io clk   35
+
+set_io RX    4
+set_io TX    6
+
+set_io USB_DP       10
+set_io USB_DN       9
+set_io USB_PULLUP   11
+
+# PMOD 1
+set_io P1[0]    9
+set_io P1[1]    4
+set_io P1[2]    2
+set_io P1[3]    47
+set_io P1[4]    10
+set_io P1[5]    6
+set_io P1[6]    3
+set_io P1[7]    48
+
+# PMOD 2
+set_io P2[0]    45
+set_io P2[1]    43
+set_io P2[2]    38
+set_io P2[3]    36
+set_io P2[4]    46
+set_io P2[5]    44
+set_io P2[6]    42
+set_io P2[7]    37
+
+# PMOD 3
+set_io P3[0]    32
+set_io P3[1]    28
+set_io P3[2]    26
+set_io P3[3]    23
+set_io P3[4]    34 
+set_io P3[5]    31
+set_io P3[6]    27
+set_io P3[7]    25
+
+# PMOD 4
+set_io P4[0]    21
+set_io P4[1]    20
+set_io P4[2]    19
+set_io P4[3]    18
+
+#spi
+set_io SPI_SS   16
+set_io SPI_SCK  15
+set_io SPI_MOSI 17
+set_io SPI_MISO 14
